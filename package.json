@@ -1,5 +1,5 @@
 {
-  "name": "js",
+  "name": "ntw",
   "version": "0.0.0",
   "scripts": {
     "test": "tap --no-watch test.ts",
@@ -14,8 +14,6 @@
   "tap": {
     "reporter": "spec",
     "watch": true,
-    "node-arg": [
-      "--require=ts-node/register"
-    ]
+    "node-arg": ["--require=ts-node/register"]
   }
 }
